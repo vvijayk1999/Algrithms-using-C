@@ -18,7 +18,7 @@ void main()
 void dijkstras(int n,int cost[10][10],int source,int d[10])
 {
 	int i,j,min,u,v,visited[10];
-	for(i=1;i<n;i++)
+	for(i=1;i<=n;i++)
 	{
 		d[i]=cost[source][i];
 		visited[i]=0;

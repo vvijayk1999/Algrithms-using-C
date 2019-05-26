@@ -11,7 +11,7 @@ int main()
 	scanf("%d",&key);
 	low=0;
 	high=n-1;
-	while(low<high)
+	while(low<=high)
 	{
 		mid=(high+low)/2;
 		if(a[mid]==key)

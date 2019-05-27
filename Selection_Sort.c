@@ -6,12 +6,12 @@ int main()
 	scanf("%d",&n);
 	printf("Enter the %d elements :\n",n);
 	for(i=0;i<n;i++)
-		scanf("%d",arr[i]);
-	for(i=0;i<n;i++)
+		scanf("%d",&arr[i]);
+	for(i=0;i<n-1;i++)
 	{
 		min=i;
-		for(j=i+1;j<=n-1;j++)
-			if(arr[i]<arr[min])
+		for(j=i+1;j<n;j++)
+			if(arr[j]<arr[min])
 				min=j;
 		temp=arr[min];
 		arr[min]=arr[i];

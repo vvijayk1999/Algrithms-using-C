@@ -19,6 +19,6 @@ int main()
 	}
 	printf("The sorted array is : \n");
 	for(i=0;i<n;i++)
-		printf("%d",arr[i]);
+		printf("%d\t",arr[i]);
 		
 }
